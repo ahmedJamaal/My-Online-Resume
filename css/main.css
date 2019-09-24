@@ -1844,6 +1844,7 @@ header .logo a {
 	font-size: 3.3rem;
 	padding: 0 3rem;
 	margin-bottom: 0;
+	text-transform: capitalize;
 }
 #portfolio .folio-types {
 	margin: 0;
@@ -1908,9 +1909,13 @@ header .logo a {
 }
 .popup-modal .description-box h4 {
 	font-family: "poppins-bold", sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	line-height: 2.4rem;
 	margin-bottom: .6rem;
+}
+.popup-modal .description-box h4 span{
+	color:#cc005f;
+	font-size: 1.5rem;
 }
 .popup-modal .description-box p {
 	font-family: "poppins-regular", sans-serif;
@@ -1918,7 +1923,7 @@ header .logo a {
 	line-height: 2.4rem;
 	margin-bottom: 12px;
 }
-.popup-modal .categories {
+.popup-modal .link {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.1rem;
 	line-height: 1.8rem;
@@ -1927,6 +1932,12 @@ header .logo a {
 	display: block;
 	text-align: left;
 	color: rgba(0, 0, 0, 0.5);
+}
+.popup-modal .link a{
+	color: rgba(0, 0, 0, 0.8);
+}
+.popup-modal .link a:hover{
+	color: #cc005f;
 }
 .popup-modal .link-box {
 	width: 100%;
@@ -2094,7 +2105,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background: #313131 url(../images/pic5.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2110,7 +2121,7 @@ header .logo a {
 	width: 100%;
 	height: 100%;
 	background: #151515;
-	opacity: .9;
+	opacity: .7;
 }
 
 #services .section-intro {

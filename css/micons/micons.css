@@ -36,6 +36,15 @@
 .icon-align-right:before {
     content: "\e903";
 }
+.icon-mobile:before {
+    content: "\e959";
+}
+.icon-stats-bars:before {
+    content: "\e99b";
+}
+.icon-earth:before {
+    content: "\e9ca";
+}
 .icon-alt:before {
     content: "\e904";
 }
@@ -195,8 +204,8 @@
 .icon-drop:before {
     content: "\e938";
 }
-.icon-earth:before {
-    content: "\e939";
+.icon-chatbot:before {
+    content: "\e976";
 }
 .icon-edit:before {
     content: "\e93a";
