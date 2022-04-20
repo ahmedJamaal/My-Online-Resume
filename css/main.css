@@ -1165,7 +1165,7 @@ header .row {
 }
 header .top-bar {
   display: block;
-  background: #000000;
+  background: #000;
   min-width: 220px;
   min-height: 66px;
   position: absolute;
@@ -1176,7 +1176,7 @@ header .logo {
   float: left;
   margin-left: 20px;
   margin-right: 50px;
-  margin-top: 25px;
+  margin-top: 18px;
   position: relative;
 }
 header .logo a {
@@ -1188,7 +1188,7 @@ header .logo a {
   text-shadow: none;
   color: transparent;
   width: 92px;
-  height: 15px;
+  height: 30px;
   background: url("../images/logo.png") no-repeat center;
   background-size: 92px 15px;
 }
@@ -1584,7 +1584,7 @@ header .logo a {
   
 }
 .intro-info .lead {
-  text-align: left;
+ text-align: justify;
   padding-left: 300px;
   text-transform: capitalize;
 }
@@ -1615,8 +1615,8 @@ header .logo a {
   color: #7F29C2;
   margin: 7px;
   text-align: center;
-  line-height: 50px;
-  font-size: 18px;
+  line-height: 45px;
+  font-size: 16px;
   padding: 0 10px;
   font-weight: bold;
 }
